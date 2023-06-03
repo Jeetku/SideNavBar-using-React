@@ -15,12 +15,12 @@ function App() {
       <Router>
         <SideNavBar>
           <Routes>
-            <Route path="/dashboard" element={<Dashboard />}></Route>
-            <Route path="/about" element={<About />}></Route>
-            <Route path="/comment" element={<Comment />}></Route>
-            <Route path="/product" element={<Product />}></Route>
-            <Route path="/productList" element={<ProductList />}></Route>
-            <Route path="/analytics" element={<Analytics />}></Route>
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/comment" element={<Comment />} />
+            <Route path="/product" element={<Product />} />
+            <Route path="/productList" element={<ProductList />} />
+            <Route path="/analytics" element={<Analytics />} />
           </Routes>
         </SideNavBar>
       </Router>
